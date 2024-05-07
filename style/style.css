@@ -1,0 +1,543 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #333;
+}
+html {
+  font-size: 62.5%;
+}
+.logo-icon {
+  color: #333;
+  font-size: 1.3rem;
+  padding: 0.2rem;
+}
+.top {
+  height: 2.2rem;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.collection {
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+.india {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+.hero-section {
+  background-image: url(../media/shoes.avif);
+  height: 60rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.nav {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+.nav-icon {
+  color: rgba(255, 255, 255, 0.579);
+  font-size: 2rem;
+  padding: 0 1rem;
+}
+.nav-icon:hover {
+  color: white;
+}
+
+hr {
+  color: rgba(255, 255, 255, 0.579);
+}
+.navbar {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.579);
+  list-style: none;
+  text-transform: capitalize;
+}
+.nav-logo {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.579);
+  text-transform: uppercase;
+}
+.nav-list a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.713);
+}
+.nav-list a:hover {
+  color: white;
+}
+.home-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.home-para {
+  color: white;
+  font-size: 3.5rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+.home-link {
+  color: white;
+  background-color: rgba(255, 0, 0, 0.524);
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  margin-top: 1rem;
+  display: inline-block;
+  margin-left: 25rem;
+  text-transform: capitalize;
+}
+.home-link:hover {
+  background-color: rgb(176, 2, 2);
+}
+
+.collections {
+  text-align: center;
+  font-family: sans-serif;
+  width: 60rem;
+  margin: 0 auto;
+}
+.collection-heading-1 {
+  font-size: 1.6rem;
+  padding-top: 8rem;
+  text-transform: uppercase;
+}
+.collection-heading-2 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  padding-top: 2rem;
+  font-family: serif;
+}
+.collection-para {
+  font-size: 1.6rem;
+  padding-top: 2rem;
+}
+
+.collection-btn:link {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border: 1px solid #3333334c;
+  display: inline-block;
+  margin-top: 2.4rem;
+  color: #333;
+  text-decoration: none;
+}
+.collection-btn:hover {
+  text-decoration: underline;
+}
+.sleeper-container {
+  height: 40rem;
+  width: 40rem;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sleeper-image {
+  height: 20rem;
+
+}
+.sleeper-name {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+.sleeper-price {
+  color: red;
+  font-size: 1.2rem;
+}
+.sleeper-containers {
+  display: flex;
+  gap: 1rem;
+  margin-top: 5rem;
+  padding: 0 1rem;
+  font-family: sans-serif;
+}
+.feature {
+  height: 60rem;
+  background-image: url(../media/feature-img.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10rem;
+  position: relative;
+}
+.feature-container {
+  width: 50rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.feature-heading-1 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+.feature-heading-2 {
+  color: white;
+  font-family: serif;
+  font-size: 4rem;
+  text-transform: capitalize;
+  padding-top: 1.8rem;
+}
+.feature-para {
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  padding-top: 1.8rem;
+}
+.feature-link {
+  margin-left: -2rem;
+  margin-top: 2rem;
+}
+
+.feature-2 {
+  height: 60rem;
+  background-image: url(../media/feature-2.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10rem;
+  position: relative;
+}
+.feature-container {
+  width: 50rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.feature-heading-1 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+.feature-heading-2 {
+  color: white;
+  font-family: serif;
+  font-size: 4rem;
+  text-transform: capitalize;
+  padding-top: 1.8rem;
+}
+.feature-para {
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  padding-top: 1.8rem;
+}
+.feature-link {
+  margin-left: -2rem;
+  margin-top: 2rem;
+}
+.lady {
+  margin-top: 15rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8rem;
+  padding: 1rem;
+  padding-bottom: 8rem;
+}
+.lady-img {
+  height: 70rem;
+  width: 70rem;
+}
+.lady-container {
+  width: 25rem;
+}
+
+.lady-heading-1 {
+  color: #333;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+.lady-heading-2 {
+  color: #333;
+  font-family: serif;
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding-top: 1.2rem;
+}
+.lady-para {
+  color: #333;
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding-top: 1.2rem;
+}
+.lady-link {
+  font-size: 1.2rem;
+  padding: 0.5rem 1.2rem;
+  border: 1px solid #3333334c;
+  display: inline-block;
+  margin-top: 2.4rem;
+  color: #333;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.lady-link:hover {
+  text-decoration: underline;
+}
+.text {
+  padding: 10rem 22rem;
+  text-align: center;
+}
+.text-para {
+  font-size: 3rem;
+  line-height: 1.4;
+}
+.text-name {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: sans-serif;
+  padding-top: 1.2rem;
+}
+
+.refined {
+  background-image: url(../media/refined.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60rem;
+  padding: 0 5rem;
+}
+
+.refined-container {
+  width: 40rem;
+  padding-top: 20rem;
+  color: white;
+}
+
+.refined-heading-1 {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: white;
+}
+.refined-heading-2 {
+  color: white;
+  font-family: serif;
+  font-size: 3rem;
+  text-transform: capitalize;
+  padding-top: 1.2rem;
+}
+.refined-para {
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.4rem;
+  padding-top: 1.2rem;
+  line-height: 1.2;
+}
+.refined-link {
+  font-size: 1.2rem;
+  padding: 1rem 1.2rem;
+  border: 1px solid #3333334c;
+  display: inline-block;
+  margin-top: 2.4rem;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.524);
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.refined-link:hover {
+  text-decoration: underline;
+  background-color: rgb(176, 2, 2);
+}
+.story {
+  margin-top: 5rem;
+  padding: 0 3rem;
+
+}
+.story-flex {
+
+
+  display: flex;
+  justify-content: space-around;
+}
+.story-image {
+  height: 45rem;
+  width: 50rem;
+}
+
+.story-container {
+  width: 30rem;
+  padding-top: 2rem;
+  color: #333;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.story-heading-1 {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #333;
+}
+.story-heading-2 {
+  color: #333;
+  font-family: serif;
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding-top: 1.2rem;
+}
+.story-para {
+  color: #333;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  padding-top: 1.2rem;
+  line-height: 1.5;
+}
+.story-link {
+  font-size: 1.2rem;
+  padding: 1rem 1.2rem;
+  border: 1px solid #3333334c;
+  display: inline-block;
+  margin-top: 2.4rem;
+  color: #333;
+
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.story-link:hover {
+  text-decoration: underline;
+}
+.text-name-2 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  padding: 1rem 0;
+}
+.text-para-2 {
+  font-size: 1.6rem;
+}
+.horizontal {
+  margin-top: 3rem;
+}
+.texts {
+  margin-top: -3rem;
+  padding: 4rem 40rem;
+}
+.loafer-section {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+}
+.loafer-img {
+  height: 45rem;
+  width: 35rem;
+}
+.loafer-text {
+  font-size: 1rem;
+  padding: 1.5rem 0;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+.loafer {
+  width: 32rem;
+}
+
+.footer {
+  height: 40rem;
+  background-color: #243d2b;
+  margin-top: 2rem;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5rem;
+}
+
+.footer-para {
+  color: rgb(220, 220, 220);
+  font-size: 1rem;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  width: 28rem;
+  line-height: 1.5;
+}
+.footer-list,
+h5 {
+  color: rgb(220, 220, 220);
+  font-family: sans-serif;
+  font-size: 1rem;
+  text-transform: capitalize;
+  list-style: none;
+  line-height: 1.8;
+}
+
+h5 {
+  color: rgb(189, 187, 187);
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding-bottom: 0.8rem;
+}
+.email {
+  padding: 1rem 20rem 1rem 2rem;
+  background-color: #243d2b;
+  border: none;
+  border: 1px solid rgb(113, 112, 112);
+  margin-top: 1rem;
+  text-align: start;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  color: rgb(220, 220, 220);
+}
+.footer-horizontal {
+  margin: 6rem 6rem 1.8rem 6rem;
+  color: rgb(101, 101, 101);
+}
+.option {
+  background-color: #2d4b35d3;
+  color: rgb(220, 220, 220);
+  padding: 0.3rem 0.6rem;
+  text-transform: capitalize;
+}
+.options {
+  margin-left: 6rem;
+}
+.footer-container-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 6rem;
+}
+.logo-icons {
+  color: rgb(235, 234, 234);
+  font-size: 1.3rem;
+  padding: 0.2rem;
+}
+.logo-icons:hover {
+  cursor: pointer;
+  scale: 1.2;
+}
+.footer-right {
+  color: rgb(220, 220, 220);
+  margin-left: 6rem;
+  text-transform: capitalize;
+  padding-top: 2rem;
+}
+.footer-image {
+  height: 3rem;
+  width: 20rem;
+  display: block;
+  margin-left: 6rem;
+  margin-top: 2rem;
+  margin-bottom: -1rem;
+}
